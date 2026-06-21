@@ -1,0 +1,12 @@
+{
+  "name": "gemini-proxy-vercel",
+  "version": "1.0.0",
+  "description": "Proxy for Gemini API on Vercel",
+  "main": "api/gemini.js",
+  "scripts": {
+    "start": "node api/gemini.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0"
+  }
+}
